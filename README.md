@@ -9,6 +9,7 @@ Installation
   git clone https://github.com/Boran/cf-php-ip.git
   cd cf-php-ip.git
 
+- Get the CF commline tool, e.g. from https://github.com/cloudfoundry/cli   
 - create an account on the SCM cloud  
 - login to the cloud   
   cf login -u USER -p PASSWORD
