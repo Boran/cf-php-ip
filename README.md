@@ -10,12 +10,12 @@ Installation
   git clone https://github.com/Boran/cf-php-ip.git  
   cd cf-php-ip  
 
-- Get the CF commline tool, e.g. from https://github.com/cloudfoundry/cli   
-- create an account on the SCM cloud  
+- Get the CF command line tool, e.g. from https://github.com/cloudfoundry/cli   
+- create an account on the (SCM) cloud  
 - login to the cloud   
   cf login -u USER -p PASSWORD
 
-- app named 'ip', will run on ip.beta.scapp.io    
+- Create an app (for example) named 'ip', to run on ip.beta.scapp.io    
   cf push ip -b https://github.com/dmikusa-pivotal/cf-php-build-pack -d beta.scapp.io -n ip
 
 - connect to http://ip.beta.scapp.io/ and watch the logs:  
@@ -24,7 +24,7 @@ Installation
 
 Scaling
 -------
-Then one could scale it up to 2 instances:  
+One could scale it up to 2 instances:  
 cf scale ip -i 2  
 cf app ip  
 > Showing health and status for app ip in org boran / space DEV as boran...  
