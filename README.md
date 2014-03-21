@@ -1,6 +1,7 @@
 Simple php test app for Cloud Foundry at Swisscom
 
-Says welcome and shows you remote IP address.
+Says welcome and shows your remote IP address.   
+Note: it may not show the REMOTE_ADDR correctly (not what you'd expect), if there is a reverse proxy in front of the server hosting this app.
 
 
 Installation
