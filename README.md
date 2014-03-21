@@ -7,8 +7,8 @@ Note: it may not show the REMOTE_ADDR correctly (not what you'd expect), if ther
 Installation
 ------------
 - extract this repo to a folder  
-  git clone https://github.com/Boran/cf-php-ip.git
-  cd cf-php-ip.git
+  git clone https://github.com/Boran/cf-php-ip.git  
+  cd cf-php-ip  
 
 - Get the CF commline tool, e.g. from https://github.com/cloudfoundry/cli   
 - create an account on the SCM cloud  
